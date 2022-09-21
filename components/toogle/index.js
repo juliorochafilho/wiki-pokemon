@@ -1,4 +1,3 @@
-import { styled } from "../../stitches.config";
 import * as ToggleGroup from "@radix-ui/react-toggle-group";
 
 // interface IOptions {

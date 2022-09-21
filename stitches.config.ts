@@ -32,8 +32,8 @@ export const {
 
 export const darkTheme = createTheme({
   colors: {
-    primary: "white",
-    secondary: "black",
+    primary: gray.gray12,
+    secondary: "white",
 
     ...gray,
     ...blue,
@@ -42,11 +42,12 @@ export const darkTheme = createTheme({
   },
 });
 
+
 // const GlobalStyles = globalCss({
 //   body: {
 //     //we can call the color token values with the
 //     //$ prefix in a string
-//     background: "$primary", 
+//     background: "$primary",
 //     color: "$secondary"
 //   }
 // })
